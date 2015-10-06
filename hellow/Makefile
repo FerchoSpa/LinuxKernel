@@ -34,4 +34,4 @@ unload:
 
 clean: unload
 	echo "Now in clean"
-	@rm -rf $(OBJ).o 
+	@rm -rf $(OBJ).o $(OBJ).ko $(OBJ).*.* .$(OBJ).* .tmp_versions* Module* module*
