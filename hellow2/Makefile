@@ -2,7 +2,7 @@ KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
 LDD := /lib/modules/$(shell uname -r)/kernel/driver/ldd/
 
-OBJ := hellow
+OBJ := hellow2
 
 obj-m := $(OBJ).o
 
